@@ -19,7 +19,6 @@ export default function Header() {
         <Container>
           <div className="flex justify-between items-center">
             <NextLink href="/" className="text-2xl font-bold text-white">
-              <span className="flex items-center">
                 <Image
                   src="https://uploads-ssl.webflow.com/6291469e60c3ca1bf75c7241/62a116b227d6fe8df3bb18fe_BilliDrop-Wordmark-Light.svg"
                   alt={nftName}
