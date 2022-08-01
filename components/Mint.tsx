@@ -198,7 +198,7 @@ export default function Mint() {
     <>
       <h2 className="text-4xl mb-8">Mint</h2>
 
-      <div style={{ backgroundImage: "url: https://cdn.discordapp.com/attachments/1003372616381370449/1003483484406415420/TheDropNFTVIDCARDBG.jpg"}} className="border border-t-red-300 border-r-blue-300 border-b-green-300 border-l-yellow-300 rounded p-8">
+      <div style={{ backgroundImage: "url('https://cdn.discordapp.com/attachments/1003372616381370449/1003483484406415420/TheDropNFTVIDCARDBG.jpg')"}} className="border border-t-red-300 border-r-blue-300 border-b-green-300 border-l-yellow-300 rounded p-8">
         <div className="flex justify-around border-b border-gray-700 pb-8">
           <div className="space-y-1">
             <div className="text-gray-400">Supply:</div>
