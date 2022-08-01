@@ -20,8 +20,9 @@ const Home: NextPage = () => {
         <title>{nftName}</title>
       </Head>
 
-      <Image src={topImage} alt={nftName} />
  <div className="py-16">
+         <Image src={topImage} alt={nftName} />
+
         <Prose>
           <Mint />
         </Prose>
