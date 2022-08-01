@@ -21,7 +21,11 @@ const Home: NextPage = () => {
       </Head>
 
       <Image src={topImage} alt={nftName} />
-
+ <div className="py-16">
+        <Prose>
+          <Mint />
+        </Prose>
+      </div>
       <div className="bg-gray-800 py-16">
         <Prose>
           <h1 className="text-5xl font-bold mb-4">{nftName}</h1>
@@ -32,11 +36,7 @@ const Home: NextPage = () => {
         </Prose>
       </div>
 
-      <div className="py-16">
-        <Prose>
-          <Mint />
-        </Prose>
-      </div>
+     
 
       <div className="bg-gray-800 py-16">
         <Prose>
