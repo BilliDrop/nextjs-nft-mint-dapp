@@ -205,6 +205,7 @@ export default function Mint() {
               <span className="text-pink-500">{totalSupply}</span> / {maxSupply}
             </div>
           </div>
+          </div>
 
 
           <div className="space-y-1">
