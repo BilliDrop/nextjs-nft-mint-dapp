@@ -3,5 +3,5 @@ type Props = {
 };
 
 export default function Prose({ children }: Props) {
-  return <div className="max-w-prose mx-auto px-4">{children}</div>;
+  return <div style={{ backgroundImage: "url(https://cdn.discordapp.com/attachments/1003372616381370449/1003483484406415420/TheDropNFTVIDCARDBG.jpg)"}} className="max-w-prose mx-auto px-4">{children}</div>;
 }
