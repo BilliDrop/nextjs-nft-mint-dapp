@@ -21,14 +21,17 @@ const Home: NextPage = () => {
       </Head>
          
 <div style={{ backgroundImage: "url: {topImage}"}}>
+<div className = "py-16">
                <Mint />
 
-</div>
 
 
         <Prose>
         </Prose>
+  </div>  
       </div>
+
+
       <div className="bg-gray-800 py-16">
         <Prose>
           <h1 className="text-5xl font-bold mb-4">{nftName}</h1>
