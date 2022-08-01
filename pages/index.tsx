@@ -21,11 +21,11 @@ const Home: NextPage = () => {
       </Head>
 
  <div className="py-16">
-             <Mint />
 
          <Image src={topImage} alt={nftName} layout="fill"
             objectFit="cover"
             quality={100} />
+             <Mint />
 
         <Prose>
         </Prose>
