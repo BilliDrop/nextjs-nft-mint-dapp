@@ -8,7 +8,7 @@ import Mint from '../components/Mint';
 import Faq from '../components/Faq';
 import Team from '../components/Team';
 import Roadmap from '../components/Roadmap';
-import topImage from '../public/assets/1920x600.png';
+import topImage from '../public/assets/TheDropNFTVIDCARDBG.jpeg';
 import contractConfig from '../config/contract-config.json';
 
 const Home: NextPage = () => {
