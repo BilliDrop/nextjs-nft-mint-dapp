@@ -195,6 +195,7 @@ export default function Mint() {
   }
 
   return (
+    <>      <div style={{ backgroundImage: "url(https://cdn.discordapp.com/attachments/1003372616381370449/1003483484406415420/TheDropNFTVIDCARDBG.jpg)"}}>
 
       <h2 className="text-4xl mb-8">Mint</h2>
  <div className="border border-t-red-300 border-r-blue-300 border-b-green-300 border-l-yellow-300 rounded p-8">
@@ -205,7 +206,7 @@ export default function Mint() {
               <span className="text-pink-500">{totalSupply}</span> / {maxSupply}
             </div>
           </div>
-          </div>
+                    </div>
 
 
           <div className="space-y-1">
