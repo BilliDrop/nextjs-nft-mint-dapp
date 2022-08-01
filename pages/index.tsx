@@ -20,7 +20,6 @@ const Home: NextPage = () => {
         <title>{nftName}</title>
       </Head>
          
- <div className="py-16">
 <div style={{ backgroundImage: "url: {topImage}"}}>
                <Mint />
 
