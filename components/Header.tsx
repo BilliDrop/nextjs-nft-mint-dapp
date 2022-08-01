@@ -23,12 +23,10 @@ export default function Header() {
                 <Image
                   src="https://uploads-ssl.webflow.com/6291469e60c3ca1bf75c7241/62a116b227d6fe8df3bb18fe_BilliDrop-Wordmark-Light.svg"
                   alt={nftName}
-                  width={35}
-                  height={35}
+                  width={187}
                   className="rounded-full"
                 />
-                <span className="hidden md:block ml-2">{nftName}</span>
-              </span>
+
             </NextLink>
 
             <div className="flex items-center space-x-2 ml-2 sm:ml-0">
