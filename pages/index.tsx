@@ -19,12 +19,12 @@ const Home: NextPage = () => {
       <Head>
         <title>{nftName}</title>
       </Head>
-
- <div className="py-16">
-
          <Image src={topImage} alt={nftName} layout="fill"
             objectFit="cover"
             quality={100} />
+ <div className="py-16">
+
+
              <Mint />
 
         <Prose>
