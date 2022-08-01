@@ -21,7 +21,7 @@ export default function Header() {
             <NextLink href="/" className="text-2xl font-bold text-white">
               <span className="flex items-center">
                 <Image
-                  src={Logo}
+                  src="https://uploads-ssl.webflow.com/6291469e60c3ca1bf75c7241/62a116b227d6fe8df3bb18fe_BilliDrop-Wordmark-Light.svg"
                   alt={nftName}
                   width={35}
                   height={35}
